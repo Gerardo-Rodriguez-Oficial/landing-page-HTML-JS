@@ -1,0 +1,161 @@
+
+:root{
+    --colorMain:#e8e2e2 ;
+}
+
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    background: transparent;
+    color: var(--colorMain);
+}
+
+h1,h2,h3,p,a,ul,li,button{
+    border: 0;
+    padding: 0;
+}
+
+body{
+   background: url('./img/monstera-imagen.jpg') no-repeat center center/cover;
+    height: 100vh;
+    /* padding: 1rem; */
+  
+}
+
+.logo{
+    max-width: 100%;
+    width: 95px;
+    height: 60px;
+    /* background: var(--colorMain); */
+    padding: .2rem;
+    border-radius: .3rem;
+    cursor: pointer;
+  
+}
+
+
+
+.contenedor{
+    height: 100vh;
+    color: var(--colorMain);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 5rem 5rem 5rem;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.menu{
+    display: flex;
+    gap: 3rem;
+    padding-right: 2rem;
+}
+
+
+
+.menu > li > a:hover{
+    border: 2px solid var(--colorMain);
+    background: #16877f;
+    padding: .5rem;
+    text-align: center;
+    border-radius: .4rem;
+}
+
+.boton-signIn{
+    border: 0;
+    background: #E477CA;
+    padding: .5rem 1.5rem;
+    color: var(--colorMain);
+    border-radius: .5rem;
+    cursor: pointer;
+    border: 2px solid #E477CA;
+}
+
+.boton-signIn:hover{
+    background: #16877f;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+    top: 0;
+}
+
+.contador{
+    margin-top: 1rem;
+    padding: 1rem;
+    background: olive;
+    color: var(--colorMain);
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+.boton-sumar{
+    border: 0;
+    padding: .5rem 2rem;
+    border: 2px solid cornflowerblue;
+    text-transform: uppercase;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.boton-restar{
+    border: 0;
+    padding: .5rem 2rem;
+    border: 2px solid cornflowerblue;
+    text-transform: uppercase;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.landing-page{
+    font-size: 2rem;
+}
+
+.footer{
+    display: block;
+    text-align: center;
+}
+
+.enter-email{
+    padding: .3rem 2rem;
+    background: #9FD4F3;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+.subscribe-Now{
+    padding: .3rem 2rem;
+    background: #7189C9;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+/* ESTILOS MODAL */
+
+.title-modal{
+    font-weight: bold;
+    color: rgb(20, 164, 204);
+    font-size: 1rem;
+}
+
